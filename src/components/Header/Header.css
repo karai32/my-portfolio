@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #333;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+/* Логотип и меню */
+.logo {
+  text-align: left;
+}
+
+/* Прячем бургер на больших экранах */
+.burger-container {
+  display: none;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .burger-container {
+    display: flex; /* Показываем бургер */
+  }
+
+  .nav-links {
+    display: none; /* Прячем обычные ссылки */
+  }
+}

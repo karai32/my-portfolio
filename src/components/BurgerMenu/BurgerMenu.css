@@ -1,0 +1,85 @@
+.burger-container {
+    display: flex;
+    align-items: center;
+    display: none;
+  }
+  
+  /* Кнопка бургер-меню */
+  .burger-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
+  
+  /* Выезжающее меню */
+  .burger-menu {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Скрыто по умолчанию */
+    width: 250px;
+    height: 100vh;
+    background-color: #222;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: left 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    z-index: 6;
+  }
+  
+  /* Когда меню открыто */
+  .burger-menu.open {
+    left: 0;
+  }
+  
+  /* Кнопка закрытия */
+  .close-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-right: 20px;
+  }
+  
+  /* Ссылки */
+  .burger-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  
+  .burger-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .burger-links a:hover {
+    color: #ff9800;
+  }
+  
+  /* Затемнение фона */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+  }
+
+@media (max-width: 768px) {
+    .burger-container {
+        display: block;
+    }
+}

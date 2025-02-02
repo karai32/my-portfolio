@@ -1,0 +1,50 @@
+/* @import "@fontsource-variable/onest"; */
+@font-face {
+  font-family: 'Font Over';
+  src: url('./assets/fonts/Font Over.woff2') format('woff2'),
+       url('./assets/fonts/Font Over.woff') format('woff'),
+       url('./assets/fonts/Font Over.ttf') format('truetype'),
+       url('./assets/fonts/Font Over.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Home';
+  src: url('./assets/fonts/HomeVideo/HomeVideo-Regular.woff2') format('woff2'),
+       url('./assets/fonts/HomeVideo/HomeVideo-Regular.woff') format('woff'),
+       url('./assets/fonts/HomeVideo/HomeVideo-Regular.ttf') format('truetype'),
+       url('./assets/fonts/HomeVideo/HomeVideo-Regular.otf') format('opentype'),
+       url('./assets/fonts/HomeVideo/HomeVideo-Bold.woff2') format('woff2'),
+       url('./assets/fonts/HomeVideo/HomeVideo-Bold.woff') format('woff'),
+       url('./assets/fonts/HomeVideo/HomeVideo-Bold.ttf') format('truetype'),
+       url('./assets/fonts/HomeVideo/HomeVideo-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Плавный переход для смены темы */
+body {
+  transition: background-color 0.3s, color 0.3s;
+  font-family: 'Font Over', sans-serif;
+  background-color: #222;
+  color: white;
+}
+
+/* Тёмная тема */
+.dark-mode {
+  background-color: #222;
+  color: white;
+}
+
+/* Ссылки в тёмной теме */
+.dark-mode a {
+  color: white;
+}
+
+.dark-mode .nav-links a:hover {
+  color: #ff9800;
+}
+
+.dark-mode .burger-menu {
+  background-color: #333;
+}

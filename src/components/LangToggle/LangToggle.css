@@ -1,0 +1,14 @@
+.LangBtn{
+    background: none;
+    font-family: 'Font Over', sans-serif;
+    font-size: 16px;
+    color: #FFF;
+    padding: 3px 6px;
+}
+.LangBtn span{
+    opacity: 0.7;
+}
+.LangBtn span.active{
+    opacity: 1;
+    color: #007800;
+}

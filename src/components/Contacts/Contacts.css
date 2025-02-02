@@ -1,0 +1,23 @@
+.contacts {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contacts h2{
+    font-weight: 400;
+}
+
+.contacts-container {
+    display: flex;
+    gap: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .contacts-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

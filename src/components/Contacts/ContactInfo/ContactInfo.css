@@ -1,0 +1,32 @@
+.contact-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.contact-info h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.contact-info a {
+    font-family: 'Home', sans-serif;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}

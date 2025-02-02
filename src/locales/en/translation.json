@@ -1,0 +1,71 @@
+{
+    "about_me": "About Me",
+    "greeting": "Hello! My name is Artem. I am a web developer with experience in WordPress and React. I love creating beautiful and user-friendly websites!😉",
+    "technologies_title": "Technologies I work with:",
+    "contacts_title": "Get in Touch",
+    "technologies": [
+        "HTML5",
+        "CSS",
+        "PHP",
+        "JavaScript",
+        "WordPress + WooCommerce",
+        "React"
+    ],
+    "portfolio": {
+        "title": "Project Examples",
+        "visit_site": "Visit Site",
+        "projects": [
+            {
+                "title": "Freight transportation across the country",
+                "link": "https://gruz38.ru"
+            },
+            {
+                "title": "Products for people with disabilities",
+                "link": "https://incluzia.ru"
+            },
+            {
+                "title": "Real estate and construction",
+                "link": "https://ensk.pro"
+            },
+            {
+                "title": "Custom-made furniture",
+                "link": "https://arsstudio-mebel.ru"
+            },
+            {
+                "title": "Sofas and beds",
+                "link": "https://mebel-manufactory.ru"
+            },
+            {
+                "title": "Real estate agency",
+                "link": "https://metropolis54.ru"
+            }
+        ]
+    },
+    "contact": {
+        "title": "My Contacts",
+        "email": "Email",
+        "phone": "Phone",
+        "vk": "VKontakte",
+        "telegram": "Telegram"
+    },
+    "contact_form": {
+        "title": "Leave a request",
+        "phone": "Phone",
+        "message": "Message",
+        "phone_placeholder": "Phone",
+        "message_placeholder": "Message",
+        "submit": "Submit",
+        "success": "Your message has been sent successfully!",
+        "error": "Error sending message. Please try again.",
+        "loading": "Sending..."
+    },
+    "nav": {
+        "about": "About Me",
+        "portfolio": "Portfolio",
+        "contact": "Contacts"
+    },
+    "logo": {
+        "name": "Tepliakov Artem",
+        "desc": "Portfolio"
+    }
+}

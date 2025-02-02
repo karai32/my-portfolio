@@ -1,0 +1,12 @@
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  transition: transform 0.3s;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.2);
+}
