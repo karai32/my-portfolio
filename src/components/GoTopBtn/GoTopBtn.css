@@ -1,0 +1,32 @@
+.go_top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 70px;
+    height: 90px;
+}
+
+.go_top img {
+    width: 70px;
+    animation-duration: 3s;
+    animation-name: shake;
+    animation-iteration-count: infinite;
+}
+
+.go_top.hide {
+    display: none;
+}
+
+@keyframes shake {
+    0% {
+        margin-top: 0;
+    }
+
+    50% {
+        margin-top: 20px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
