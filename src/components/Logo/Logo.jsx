@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import "./Logo.css";
-import profilePhoto from "../../assets/profile.jpeg"; // Добавь свою фотографию в папку assets
+import profilePhoto from "../../assets/profile.jpeg";
 
 const Logo = () => {
   const { t } = useTranslation();
