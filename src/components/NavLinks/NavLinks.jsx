@@ -1,28 +1,54 @@
-import React from "react";
-import { Link } from "react-scroll";
+import React, { useEffect, useState } from "react";
+import { scroller } from "react-scroll";
+import { Link as RouterLink, useLocation, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "./NavLinks.css";
 
 const NavLinks = () => {
   const { t } = useTranslation();
+  const location = useLocation(); // Для получения текущей страницы
+  const navigate = useNavigate(); // Переход
+  const [targetSection, setTargetSection] = useState(null); // Секция для кролла
+
+  useEffect(() => {
+    if (location.pathname === "/" && targetSection) {
+      scroller.scrollTo(targetSection, {
+        smooth: true,
+        duration: 1000,
+        offset: -85,
+      });
+      setTargetSection(null);
+    }
+  }, [location.pathname, targetSection]); // Запускаем при изменении пути или целевой секции
+
+  const handleNavigation = (section) => {
+    if (location.pathname === "/") {
+      scroller.scrollTo(section, {
+        smooth: true,
+        duration: 1000,
+        offset: -85,
+      });
+    } else {
+      setTargetSection(section);
+      navigate("/");
+    }
+  };
 
   return (
     <nav className="nav">
       <ul className="nav-links">
-        <li>
-          <Link to="about" smooth={true} duration={1000} offset={-85}>
-            {t("nav.about")}
-          </Link>
+        <li onClick={() => handleNavigation("about")}>
+          {t("nav.about")}
         </li>
-        <li>
-          <Link to="projects" smooth={true} duration={1000} offset={-85}>
-            {t("nav.portfolio")}
-          </Link>
+        <li onClick={() => handleNavigation("projects")}>
+          {t("nav.portfolio")}
         </li>
+        <li onClick={() => handleNavigation("contact")}>
+          {t("nav.contact")}
+        </li>
+
         <li>
-          <Link to="contact" smooth={true} duration={1000} offset={-85}>
-            {t("nav.contact")}
-          </Link>
+          <RouterLink to="/blog">Блог</RouterLink>
         </li>
       </ul>
     </nav>
