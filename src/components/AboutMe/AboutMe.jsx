@@ -12,8 +12,10 @@ const AboutMe = () => {
 
   useEffect(() => {
     gsap.registerPlugin(TextPlugin);
+    textRef.current.innerHTML = ""
+    cursorRef.current.style.display = 'inline-block';
     gsap.to(textRef.current, {
-      duration: 8,
+      duration: 6,
       text: t('greeting'),
       ease: 'none',
       onComplete: () => {

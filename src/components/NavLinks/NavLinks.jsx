@@ -48,7 +48,7 @@ const NavLinks = () => {
         </li>
 
         <li>
-          <RouterLink to="/blog">Блог</RouterLink>
+          <RouterLink to="/blog">{t("nav.blog")}</RouterLink>
         </li>
       </ul>
     </nav>
