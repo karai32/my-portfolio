@@ -1,0 +1,8 @@
+[
+    {
+      "id": "post1",
+      "title": "How I Built My Blog Using React and i18next",
+      "text": "This blog is built using React and the i18next library for multilingual support. The posts are stored in separate JSON files (posts.json) inside the locales folder, while the interface translations are stored in translation.json. To properly load the data, I updated the i18n.js configuration by merging posts.json with translation.json so that i18next can handle them correctly. Now, when switching the language via LangToggle, both the interface translations and blog posts are loaded accordingly.\n\nIn the BlogSection component, I use t(\"posts\", { returnObjects: true }) to retrieve an array of posts from translation.json. Each post is rendered through the BlogPost component, which accepts a title and text as props. Now, it's easy to expand the blog—just add new entries to posts.json, and they will automatically be displayed on the site without modifying the code. "
+    }
+]
+  

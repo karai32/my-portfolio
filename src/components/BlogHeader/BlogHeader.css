@@ -1,0 +1,31 @@
+.blog-header {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.blog-header h2 {
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.cursor {
+    display: inline-block;
+    font-weight: bold;
+    color: #006115;
+    background: #006115;
+    width: 10px;
+    text-align: center;
+    animation: blink 0.6s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}

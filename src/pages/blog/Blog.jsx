@@ -1,6 +1,12 @@
+import BlogHeader from "../../components/BlogHeader/BlogHeader";
+import BlogSection from "../../components/BlogSection/BlogSection";
+
 const Blog = () => {
     return(
-        <h1>Hello</h1>
+        <>
+            <BlogHeader />
+            <BlogSection />
+        </>
     )
 }
 
