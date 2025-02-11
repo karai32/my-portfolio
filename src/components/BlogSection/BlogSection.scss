@@ -18,13 +18,13 @@ article h3{
     height: 100px;
     overflow: hidden;
     position: relative;
+    &:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        background: linear-gradient(180deg, transparent, #222 50%);
+    }
 }
-.post-text.close:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    background: linear-gradient(180deg, transparent, #222 50%);
-  }

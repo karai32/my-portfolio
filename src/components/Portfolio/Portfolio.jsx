@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import "./Portfolio.css";
+import "./Portfolio.scss";
 
 // Импортируем изображения (замени названия на свои)
 import work1 from "../../assets/works/work1.webp";

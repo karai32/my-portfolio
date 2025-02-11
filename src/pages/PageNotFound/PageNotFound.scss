@@ -1,0 +1,47 @@
+.wrapper{
+    max-width: 1000px;
+    margin: 60px auto;
+    
+}
+.error_html{
+    font-family: math;
+    margin: 0 auto;
+    width: fit-content;
+}
+.title{
+    text-align: center;
+    -webkit-animation: error 2s linear infinite;
+    animation: error 2s linear infinite;
+}
+.html::before, .body::before, .style::before, .doctype::before{
+    content: '<';
+    color: #FFF;
+}
+
+.html::after, .body::after, .style::after, .doctype::after{
+    content: '>';
+    color: #FFF;
+}
+.html.second::before, .body.second::before, .style.second::before{
+    content: '</';
+}
+.body, .style, .html, .green{
+    color: #33ff33;
+}
+.blue{
+    color: #4aa1ff;
+}
+.purple{
+    color: purple;
+}
+
+@keyframes error{
+    0%{opacity: 1;}
+    30%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@-webkit-keyframes error{
+    0%{opacity: 1;}
+    30%{opacity: 0;}
+    100%{opacity: 1;}
+}

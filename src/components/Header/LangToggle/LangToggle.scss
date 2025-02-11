@@ -4,11 +4,13 @@
     font-size: 16px;
     color: #FFF;
     padding: 3px 6px;
-}
-.LangBtn span{
-    opacity: 0.7;
-}
-.LangBtn span.active{
-    opacity: 1;
-    color: #007800;
+
+    span{
+        opacity: 0.7;
+    }
+
+    span.active{
+        opacity: 1;
+        color: #007800;
+    }
 }

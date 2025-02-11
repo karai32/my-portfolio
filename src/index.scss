@@ -22,29 +22,8 @@
   font-style: normal;
 }
 
-/* Плавный переход для смены темы */
 body {
-  transition: background-color 0.3s, color 0.3s;
   font-family: 'Font Over', sans-serif;
   background-color: #222;
   color: white;
-}
-
-/* Тёмная тема */
-.dark-mode {
-  background-color: #222;
-  color: white;
-}
-
-/* Ссылки в тёмной теме */
-.dark-mode a {
-  color: white;
-}
-
-.dark-mode .nav-links a:hover {
-  color: #ff9800;
-}
-
-.dark-mode .burger-menu {
-  background-color: #333;
 }

@@ -72,6 +72,7 @@
     "blog":{
         "title": "Blog",
         "desc": "This is my blog with posts about all sorts of stuff. I'm writing what I've studied, what I've coded, and so on... ;)"
-    }
+    },
+    "error": "Unfortunately this page does not exist yet :("
 
 }

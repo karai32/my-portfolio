@@ -1,8 +1,8 @@
 import React from "react";
-import "./Header.css";
-import Logo from "../Logo/Logo";
-import NavLinks from "../NavLinks/NavLinks";
-import LangToggle from "../LangToggle/LangToggle";
+import "./Header.scss";
+import Logo from "./Logo/Logo";
+import NavLinks from "./NavLinks/NavLinks";
+import LangToggle from "./LangToggle/LangToggle";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
 
 const Header = () => {

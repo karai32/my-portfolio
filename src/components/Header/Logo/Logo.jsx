@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import "./Logo.css";
-import profilePhoto from "../../assets/profile.jpeg";
+import "./Logo.scss";
+import profilePhoto from "../../../assets/profile.jpeg";
 
 const Logo = () => {
   const { t } = useTranslation();

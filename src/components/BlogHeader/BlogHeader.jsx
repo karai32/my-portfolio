@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { gsap } from 'gsap';
 import { TextPlugin } from 'gsap/all';
-import "./BlogHeader.css"
+import "./BlogHeader.scss"
 
 const BlogHeader = () => {
     const { t } = useTranslation();

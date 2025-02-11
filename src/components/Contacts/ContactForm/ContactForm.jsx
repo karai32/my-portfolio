@@ -1,7 +1,7 @@
 import React, { useState } from "react";
+import MaskedInput from "react-text-mask";
 import { useTranslation } from "react-i18next";
-import InputMask from "react-input-mask";
-import "./ContactForm.css";
+import "./ContactForm.scss";
 
 const ContactForm = () => {
   const { t } = useTranslation();
@@ -51,16 +51,14 @@ const ContactForm = () => {
       )}
 
       <form onSubmit={handleSubmit}>
-        <InputMask
-          mask="+7 (999) 999-99-99"
+        <MaskedInput
+          mask={['+', '7', ' ', '(', /\d/, /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, '-', /\d/, /\d/, '-', /\d/, /\d/]}
+          placeholder={t("contact_form.phone_placeholder")}
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
-          placeholder={t("contact_form.phone_placeholder")}
           required
-        >
-          {(inputProps) => <input type="tel" {...inputProps} />}
-        </InputMask>
-
+        />
+        
         <textarea
           placeholder={t("contact_form.message_placeholder")}
           value={message}

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./BlogPost.css"
+import "./BlogPost.scss"
 
 const BlogPost = ({title, text}) => {
     const [textOpen, setTextOpen] = useState(true);

@@ -1,8 +1,13 @@
 [
     {
       "id": "post1",
-      "title": "How I Built My Blog Using React and i18next",
-      "text": "This blog is built using React and the i18next library for multilingual support. The posts are stored in separate JSON files (posts.json) inside the locales folder, while the interface translations are stored in translation.json. To properly load the data, I updated the i18n.js configuration by merging posts.json with translation.json so that i18next can handle them correctly. Now, when switching the language via LangToggle, both the interface translations and blog posts are loaded accordingly.\n\nIn the BlogSection component, I use t(\"posts\", { returnObjects: true }) to retrieve an array of posts from translation.json. Each post is rendered through the BlogPost component, which accepts a title and text as props. Now, it's easy to expand the blog—just add new entries to posts.json, and they will automatically be displayed on the site without modifying the code. "
+      "title": "Start of construction!",
+      "text": "This site is built using React and JS. Honestly, I thought getting started with React would be easier since it’s just for layout stuff. But it turned out to be a completely new experience! What’s cool is that you have to break the site into components, not just can. It really makes navigating the project easier. Though, the /components folder is getting pretty stuffed. 😅 \n\n I was also impressed with npm (the package manager). Instead of importing tons of JS libraries for every task, like phone number masking or website translation, you can just install everything through it. Well, let’s see what else I’ll hook up to this site. 😏"
+    },
+    {
+      "id": "post2",
+      "title": "I18N",
+      "text": "I’d never implemented multilingual support on a site before, but this time I decided to give it a shot. Why not? My site, my rules! 😎 \n\n Turns out, it’s not that simple! Setting it up wasn’t too hard, thankfully there’s documentation with a step-by-step guide for people like me. But manually translating every single piece of text on the site — that’s a real pain! Seriously, I spent a ton of time on it. Oh, and there was this annoying issue where i18next wouldn’t load multiple JSON translation files for the same language at once. But hey, it looks pretty cool now, so it was worth it! 🙌"
     }
 ]
   

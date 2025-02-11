@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from 'react-scroll';
 import { useTranslation } from "react-i18next";
-import "./BurgerMenu.css";
+import "./BurgerMenu.scss";
 
 const BurgerMenu = () => {
   const { t } = useTranslation();

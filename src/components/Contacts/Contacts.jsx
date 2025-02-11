@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contacts.css";
+import "./Contacts.scss";
 import ContactInfo from "./ContactInfo/ContactInfo";
 import ContactForm from "./ContactForm/ContactForm";
 import { useTranslation } from "react-i18next";

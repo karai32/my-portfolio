@@ -1,7 +1,7 @@
 import React from "react";
 import BlogPost from "../BlogPost/BlogPost";
 import { useTranslation } from "react-i18next";
-import "./BlogSection.css"
+import "./BlogSection.scss"
 
 const BlogSection = () => {
     const { t } = useTranslation();

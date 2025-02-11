@@ -21,21 +21,18 @@
 
 .about-text {
     text-align: left;
+    h2 {
+        font-weight: 400;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
 }
-
-.about-text h2 {
-    font-weight: 400;
-    margin-bottom: 10px;
-    font-size: 24px;
-}
-
 .technologies {
     margin-top: 30px;
-}
-
-.technologies h3 {
-    font-weight: 400;
-    margin-bottom: 15px;
+    h3 {
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
 }
 
 .tech-list {
@@ -57,13 +54,9 @@
     &:focus { 
       border-color: #006115;
       color: #fff;
+      animation: pulse 1s;
+      box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
     }
-}
-
-.tech-item:hover, 
-.tech-item:focus {
-  animation: pulse 1s;
-  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
 }
 
 @keyframes pulse {

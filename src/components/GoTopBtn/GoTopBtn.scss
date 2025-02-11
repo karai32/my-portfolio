@@ -4,13 +4,13 @@
     bottom: 30px;
     width: 70px;
     height: 90px;
-}
 
-.go_top img {
-    width: 70px;
-    animation-duration: 3s;
-    animation-name: shake;
-    animation-iteration-count: infinite;
+    img {
+        width: 70px;
+        animation-duration: 3s;
+        animation-name: shake;
+        animation-iteration-count: infinite;
+    }
 }
 
 .go_top.hide {

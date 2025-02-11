@@ -6,6 +6,7 @@ import GoTopBtn from "./components/GoTopBtn/GoTopBtn"
 
 import Blog from "./pages/blog/Blog"
 import Front from "./pages/front/Front"
+import PageNotFound from "./pages/PageNotFound/PageNotFound";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Front />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
         
         <GoTopBtn />

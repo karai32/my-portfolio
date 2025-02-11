@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { scroller } from "react-scroll";
 import { Link as RouterLink, useLocation, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import "./NavLinks.css";
+import "./NavLinks.scss";
 
 const NavLinks = () => {
   const { t } = useTranslation();

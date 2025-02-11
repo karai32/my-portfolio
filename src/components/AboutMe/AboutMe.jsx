@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import './AboutMe.css';
+import './AboutMe.scss';
 import profilePhoto from '../../assets/profile.jpeg';
 import { gsap } from 'gsap';
 import { TextPlugin } from 'gsap/all';
