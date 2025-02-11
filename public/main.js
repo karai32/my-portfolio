@@ -8,15 +8,6 @@ window.addEventListener("scroll", () => {
     }
 });
 
-
-// jQuery(document).on('ready', function() {
-//     jQuery(function ($) {
-//         $("input[type='tel']").mask("+7 (999) 999-99-99");
-//     });
-
-
-// });
-
 window.onload = function () {
     const goTopBtn = document.querySelector('.go_top');
     goTopBtn.addEventListener("click", () =>{

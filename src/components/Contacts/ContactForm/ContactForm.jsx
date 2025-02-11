@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import InputMask from "react-input-mask"; // Добавляем маску для телефона
+import InputMask from "react-input-mask";
 import "./ContactForm.css";
 
 const ContactForm = () => {
@@ -11,19 +11,20 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setStatus("loading"); // Показываем индикатор загрузки
+    setStatus("loading");
+
+    const formData = new FormData();
+    formData.append("phone", phone);
+    formData.append("message", message);
 
     try {
-      const response = await fetch("https://teplyakov.fun/api/contact", {
+      const response = await fetch("https://teplyakov.fun/api/contact.php", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ phone, message }), // Отправляем данные в JSON
+        body: formData,
       });
 
       const result = await response.json();
-      if (response.ok) {
+      if (result.success) {
         setStatus("success");
         setPhone("");
         setMessage("");
