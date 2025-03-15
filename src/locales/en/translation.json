@@ -4,12 +4,30 @@
     "technologies_title": "Technologies I work with:",
     "contacts_title": "Get in Touch",
     "technologies": [
-        "HTML5",
-        "CSS",
-        "PHP",
-        "JavaScript",
-        "WordPress + WooCommerce",
-        "React"
+        {
+            "name": "HTML5",
+            "score": 5
+        },
+        {
+            "name": "CSS",
+            "score": 5
+        },
+        {
+            "name": "PHP",
+            "score": 4
+        },
+        {
+            "name": "JavaScript",
+            "score": 4
+        },
+        {
+            "name": "WordPress + WooCommerce",
+            "score": 5
+        },
+        {
+            "name": "React",
+            "score": 3
+        }
     ],
     "portfolio": {
         "title": "Project Examples",
@@ -45,7 +63,7 @@
         "title": "My Contacts",
         "email": "Email",
         "phone": "Phone",
-        "vk": "VKontakte",
+        "linkedin": "LinkedIn",
         "telegram": "Telegram"
     },
     "contact_form": {

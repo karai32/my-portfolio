@@ -11,15 +11,15 @@ const ContactInfo = () => {
       <ul>
         <li>
           <strong>📧 {t("contact.email")}:</strong> 
-          <a href="mailto:artemtepliakov02@gmail.com">artemtepliakov02@gmail.com</a>
+          <a href="mailto:artemtepliakov02@gmail.com" target="_blank">artemtepliakov02@gmail.com</a>
         </li>
         <li>
-          <strong>📞 {t("contact.phone")}:</strong> 
-          <a href="tel:+79133747345">+7 913 374 73 45</a>
+          <strong>📞 {t("contact.phone")}:</strong>
+          <a href="tel:+34614466890" target="_blank">+34 (614) 46-68-90</a>
         </li>
         <li>
-          <strong>🔗 {t("contact.vk")}:</strong> 
-          <a href="https://vk.com/artemteplyakov" target="_blank" rel="noopener noreferrer">vk.com/artemteplyakov</a>
+          <strong>🔗 {t("contact.linkedin")}:</strong> 
+          <a href="https://www.linkedin.com/in/artem-tepliakov-184459353/" target="_blank" rel="noopener noreferrer">{t("logo.name")}</a>
         </li>
         <li>
           <strong>✈️ {t("contact.telegram")}:</strong> 
