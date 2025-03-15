@@ -49,6 +49,7 @@
     border-radius: 5px;
     font-size: 14px;
     transition: 0.25s;
+    position: relative;
 
     &:hover,
     &:focus { 
@@ -56,6 +57,31 @@
       color: #fff;
       animation: pulse 1s;
       box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+    }
+
+    .technology-score{
+        position: absolute;
+        height: 30px;
+        width: 120px;
+        left: calc(50% - 70px);
+        top: calc(100% + 10px);
+        display: flex;
+        column-gap: 5px;
+        background: #333;
+        padding: 10px;
+        opacity: 0;
+        transition: 0.7s;
+
+        .score-dot{
+            width: 20px;
+            height: 100%;
+            background: #006115;
+        }
+    }
+
+    &:hover .technology-score{ 
+        opacity: 1;
+        transition: 0.7s;
     }
 }
 
@@ -82,6 +108,8 @@
         opacity: 0;
     }
 }
+
+
 
 /* Адаптивность */
 @media (max-width: 600px) {

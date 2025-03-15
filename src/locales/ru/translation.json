@@ -4,12 +4,30 @@
     "technologies_title": "Технологии, с которыми я работаю:",
     "contacts_title": "Связаться со мной",
     "technologies": [
-        "HTML5",
-        "CSS",
-        "PHP",
-        "JavaScript",
-        "WordPress + WooCommerce",
-        "React"
+        {
+            "name": "HTML5",
+            "score": 5
+        },
+        {
+            "name": "CSS",
+            "score": 5
+        },
+        {
+            "name": "PHP",
+            "score": 4
+        },
+        {
+            "name": "JavaScript",
+            "score": 4
+        },
+        {
+            "name": "WordPress + WooCommerce",
+            "score": 5
+        },
+        {
+            "name": "React",
+            "score": 3
+        }
     ],
     "portfolio": {
         "title": "Примеры работ",
@@ -45,7 +63,7 @@
         "title": "Мои контакты",
         "email": "Почта",
         "phone": "Телефон",
-        "vk": "ВКонтакте",
+        "linkedin": "LinkedIn",
         "telegram": "Telegram"
     },
     "contact_form": {
