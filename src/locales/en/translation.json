@@ -1,96 +1,97 @@
 {
-    "about_me": "About Me",
-    "greeting": "Hello! My name is Artem. I am a web developer with experience in WordPress and React. I love creating beautiful and user-friendly websites!😉",
-    "technologies_title": "Technologies I work with:",
-    "contacts_title": "Get in Touch",
-    "technologies": [
-        {
-            "name": "HTML5",
-            "score": 5
-        },
-        {
-            "name": "CSS",
-            "score": 5
-        },
-        {
-            "name": "PHP",
-            "score": 4
-        },
-        {
-            "name": "JavaScript",
-            "score": 4
-        },
-        {
-            "name": "WordPress + WooCommerce",
-            "score": 5
-        },
-        {
-            "name": "React",
-            "score": 3
-        }
-    ],
-    "portfolio": {
-        "title": "Project Examples",
-        "visit_site": "Visit Site",
-        "projects": [
-            {
-                "title": "Freight transportation across the country",
-                "link": "https://gruz38.ru"
-            },
-            {
-                "title": "Products for people with disabilities",
-                "link": "https://incluzia.ru"
-            },
-            {
-                "title": "Real estate and construction",
-                "link": "https://ensk.pro"
-            },
-            {
-                "title": "Custom-made furniture",
-                "link": "https://arsstudio-mebel.ru"
-            },
-            {
-                "title": "Sofas and beds",
-                "link": "https://mebel-manufactory.ru"
-            },
-            {
-                "title": "Real estate agency",
-                "link": "https://metropolis54.ru"
-            }
-        ]
+  "about_me": "About Me",
+  "greeting": "Hello! My name is Artem. I am a web developer with experience in WordPress and React. I love creating beautiful and user-friendly websites!😉",
+  "technologies_title": "Technologies I work with:",
+  "contacts_title": "Get in Touch",
+  "technologies": [
+    {
+      "name": "HTML5",
+      "score": 5
     },
-    "contact": {
-        "title": "My Contacts",
-        "email": "Email",
-        "phone": "Phone",
-        "linkedin": "LinkedIn",
-        "telegram": "Telegram"
+    {
+      "name": "CSS",
+      "score": 5
     },
-    "contact_form": {
-        "title": "Leave a request",
-        "phone": "Phone",
-        "message": "Message",
-        "phone_placeholder": "Phone",
-        "message_placeholder": "Message",
-        "submit": "Submit",
-        "success": "Your message has been sent successfully!",
-        "error": "Error sending message. Please try again.",
-        "loading": "Sending..."
+    {
+      "name": "PHP",
+      "score": 4
     },
-    "nav": {
-        "about": "About Me",
-        "portfolio": "Portfolio",
-        "contact": "Contacts",
-        "blog": "Blog"
+    {
+      "name": "JavaScript",
+      "score": 4
     },
-    "logo": {
-        "name": "Tepliakov Artem",
-        "desc": "Portfolio"
+    {
+      "name": "WordPress + WooCommerce",
+      "score": 5
     },
-    "blog":{
-        "title": "Blog",
-        "desc": "This is my blog with posts about all sorts of stuff. I'm writing what I've studied, what I've coded, and so on... ;)"
-    },
-    "error": "Unfortunately this page does not exist yet :("
-
+    {
+      "name": "React",
+      "score": 2
+    }
+  ],
+  "portfolio": {
+    "title": "Project Examples",
+    "visit_site": "Visit Site",
+    "projects": [
+      {
+        "title": "Freight transportation across the country",
+        "link": "https://gruz38.ru"
+      },
+      {
+        "title": "Products for people with disabilities",
+        "link": "https://incluzia.ru"
+      },
+      {
+        "title": "Real estate and construction",
+        "link": "https://ensk.pro"
+      },
+      {
+        "title": "Custom-made furniture",
+        "link": "https://arsstudio-mebel.ru"
+      },
+      {
+        "title": "Jewelry",
+        "link": "https://g-i-spb.ru/"
+      },
+      {
+        "title": "Real estate agency",
+        "link": "https://metropolis54.ru"
+      }
+    ]
+  },
+  "contact": {
+    "title": "My Contacts",
+    "email": "Email",
+    "phone": "Phone",
+    "linkedin": "LinkedIn",
+    "telegram": "Telegram"
+  },
+  "contact_form": {
+    "title": "Leave a request",
+    "phone": "Phone",
+    "message": "Message",
+    "phone_placeholder": "Phone",
+    "message_placeholder": "Message",
+    "submit": "Submit",
+    "success": "Your message has been sent successfully!",
+    "error": "Error sending message. Please try again.",
+    "loading": "Sending..."
+  },
+  "nav": {
+    "about": "About Me",
+    "portfolio": "Portfolio",
+    "contact": "Contacts",
+    "experience": "Experience"
+  },
+  "logo": {
+    "name": "Tepliakov Artem",
+    "desc": "Portfolio"
+  },
+  "experience": {
+    "title": "Experience",
+    "desc": "This section highlights my experience in web development — projects, challenges, and solutions I've worked on. A brief overview of what I’ve built, learned, and the technologies I’ve used.",
+    "showMore": "Show more",
+    "hide": "Hide"
+  },
+  "error": "Unfortunately this page does not exist yet :("
 }

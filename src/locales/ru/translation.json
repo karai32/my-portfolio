@@ -1,95 +1,97 @@
 {
-    "about_me": "Обо мне",
-    "greeting": "Привет! Меня зовут Артем. Я веб-разработчик с опытом работы в WordPress и React. Люблю создавать красивые и удобные сайты!😉",
-    "technologies_title": "Технологии, с которыми я работаю:",
-    "contacts_title": "Связаться со мной",
-    "technologies": [
-        {
-            "name": "HTML5",
-            "score": 5
-        },
-        {
-            "name": "CSS",
-            "score": 5
-        },
-        {
-            "name": "PHP",
-            "score": 4
-        },
-        {
-            "name": "JavaScript",
-            "score": 4
-        },
-        {
-            "name": "WordPress + WooCommerce",
-            "score": 5
-        },
-        {
-            "name": "React",
-            "score": 3
-        }
-    ],
-    "portfolio": {
-        "title": "Примеры работ",
-        "visit_site": "Перейти на сайт",
-        "projects": [
-            {
-                "title": "Грузоперевозки по стране",
-                "link": "https://gruz38.ru"
-            },
-            {
-                "title": "Товары для инвалидов",
-                "link": "https://incluzia.ru"
-            },
-            {
-                "title": "Недвижимость и строительство",
-                "link": "https://ensk.pro"
-            },
-            {
-                "title": "Мебель на заказ",
-                "link": "https://arsstudio-mebel.ru"
-            },
-            {
-                "title": "Диваны и кровати",
-                "link": "https://mebel-manufactory.ru"
-            },
-            {
-                "title": "Риэлторская компания",
-                "link": "https://metropolis54.ru"
-            }
-        ]
+  "about_me": "Обо мне",
+  "greeting": "Привет! Меня зовут Артем. Я веб-разработчик с опытом работы в WordPress и React. Люблю создавать красивые и удобные сайты!😉",
+  "technologies_title": "Технологии, с которыми я работаю:",
+  "contacts_title": "Связаться со мной",
+  "technologies": [
+    {
+      "name": "HTML5",
+      "score": 5
     },
-    "contact": {
-        "title": "Мои контакты",
-        "email": "Почта",
-        "phone": "Телефон",
-        "linkedin": "LinkedIn",
-        "telegram": "Telegram"
+    {
+      "name": "CSS",
+      "score": 5
     },
-    "contact_form": {
-        "title": "Оставьте заявку",
-        "phone": "Телефон",
-        "message": "Сообщение",
-        "phone_placeholder": "Телефон",
-        "message_placeholder": "Сообщение",
-        "submit": "Связаться",
-        "success": "Ваше сообщение успешно отправлено!",
-        "error": "Ошибка отправки сообщения. Попробуйте ещё раз.",
-        "loading": "Отправка..."
+    {
+      "name": "PHP",
+      "score": 4
     },
-    "nav": {
-        "about": "Обо мне",
-        "portfolio": "Портфолио",
-        "contact": "Контакты",
-        "blog": "Блог"
+    {
+      "name": "JavaScript",
+      "score": 4
     },
-    "logo": {
-        "name": "Тепляков Артем",
-        "desc": "Портфолио"
+    {
+      "name": "WordPress + WooCommerce",
+      "score": 5
     },
-    "blog":{
-        "title": "Блог",
-        "desc": "Это мой блог с постами про всякую фигню. Пишу чё изучил, че закодил и тп... ;)"
-    },
-    "error": "К сожалению этой страницы пока нету :("
+    {
+      "name": "React",
+      "score": 2
+    }
+  ],
+  "portfolio": {
+    "title": "Примеры работ",
+    "visit_site": "Перейти на сайт",
+    "projects": [
+      {
+        "title": "Грузоперевозки по стране",
+        "link": "https://gruz38.ru"
+      },
+      {
+        "title": "Товары для инвалидов",
+        "link": "https://incluzia.ru"
+      },
+      {
+        "title": "Недвижимость и строительство",
+        "link": "https://ensk.pro"
+      },
+      {
+        "title": "Мебель на заказ",
+        "link": "https://arsstudio-mebel.ru"
+      },
+      {
+        "title": "Ювелирные изделия",
+        "link": "https://g-i-spb.ru/"
+      },
+      {
+        "title": "Риэлторская компания",
+        "link": "https://metropolis54.ru"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Мои контакты",
+    "email": "Почта",
+    "phone": "Телефон",
+    "linkedin": "LinkedIn",
+    "telegram": "Telegram"
+  },
+  "contact_form": {
+    "title": "Оставьте заявку",
+    "phone": "Телефон",
+    "message": "Сообщение",
+    "phone_placeholder": "Телефон",
+    "message_placeholder": "Сообщение",
+    "submit": "Связаться",
+    "success": "Ваше сообщение успешно отправлено!",
+    "error": "Ошибка отправки сообщения. Попробуйте ещё раз.",
+    "loading": "Отправка..."
+  },
+  "nav": {
+    "about": "Обо мне",
+    "portfolio": "Портфолио",
+    "contact": "Контакты",
+    "experience": "Опыт"
+  },
+  "logo": {
+    "name": "Тепляков Артем",
+    "desc": "Портфолио"
+  },
+  "experience": {
+    "title": "Опыт работы",
+    "desc": "Здесь собран мой опыт в веб-разработке: проекты, задачи и решения, с которыми я работал. Кратко о том, что я делал, чему научился и какие технологии использовал.",
+    "showMore": "Полностью",
+    "hide": "Скрыть"
+  },
+  "error": "К сожалению этой страницы пока нету :("
 }

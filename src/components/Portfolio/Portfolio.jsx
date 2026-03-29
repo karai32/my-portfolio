@@ -25,9 +25,18 @@ const Portfolio = () => {
       <div className="portfolio-grid">
         {projects.map((project, index) => (
           <div key={index} className="portfolio-item">
-            <img src={images[index]} alt={project.title} className="portfolio-img" />
+            <img
+              src={images[index]}
+              alt={project.title}
+              className="portfolio-img"
+            />
             <h3>{project.title}</h3>
-            <a href={project.link} target="_blank" rel="noopener noreferrer" className="portfolio-link">
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="portfolio-link"
+            >
               {t("portfolio.visit_site")}
             </a>
           </div>

@@ -37,18 +37,14 @@ const NavLinks = () => {
   return (
     <nav className="nav">
       <ul className="nav-links">
-        <li onClick={() => handleNavigation("about")}>
-          {t("nav.about")}
-        </li>
+        <li onClick={() => handleNavigation("about")}>{t("nav.about")}</li>
         <li onClick={() => handleNavigation("projects")}>
           {t("nav.portfolio")}
         </li>
-        <li onClick={() => handleNavigation("contact")}>
-          {t("nav.contact")}
-        </li>
+        <li onClick={() => handleNavigation("contact")}>{t("nav.contact")}</li>
 
         <li>
-          <RouterLink to="/blog">{t("nav.blog")}</RouterLink>
+          <RouterLink to="/experience">{t("nav.experience")}</RouterLink>
         </li>
       </ul>
     </nav>

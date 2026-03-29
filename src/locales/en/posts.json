@@ -1,13 +1,17 @@
 [
-    {
-      "id": "post1",
-      "title": "Start of construction!",
-      "text": "This site is built using React and JS. Honestly, I thought getting started with React would be easier since it’s just for layout stuff. But it turned out to be a completely new experience! What’s cool is that you have to break the site into components, not just can. It really makes navigating the project easier. Though, the /components folder is getting pretty stuffed. 😅 \n\n I was also impressed with npm (the package manager). Instead of importing tons of JS libraries for every task, like phone number masking or website translation, you can just install everything through it. Well, let’s see what else I’ll hook up to this site. 😏"
-    },
-    {
-      "id": "post2",
-      "title": "I18N",
-      "text": "I’d never implemented multilingual support on a site before, but this time I decided to give it a shot. Why not? My site, my rules! 😎 \n\n Turns out, it’s not that simple! Setting it up wasn’t too hard, thankfully there’s documentation with a step-by-step guide for people like me. But manually translating every single piece of text on the site — that’s a real pain! Seriously, I spent a ton of time on it. Oh, and there was this annoying issue where i18next wouldn’t load multiple JSON translation files for the same language at once. But hey, it looks pretty cool now, so it was worth it! 🙌"
-    }
+  {
+    "id": "exp1",
+    "title": "SeoLead (ProNaiti) — Getting Started",
+    "text": "June 2022 — December 2023\n\nThis was my first professional experience in web development, where I built a solid foundation and understood how real projects work. I worked on layout and WordPress development — from simple landing pages to more complex pages with custom logic.\n\nI used HTML, CSS, and JavaScript, learned to write clean and readable code, navigate existing codebases, and handle real-world tasks. I also created custom themes and started to understand WordPress architecture.\n\nThe team was small but very supportive — always ready to help and explain. During this time, we built dozens of websites, and this is where I truly felt confident entering the profession. 🚀"
+  },
+  {
+    "id": "exp2",
+    "title": "Silver Duck — Growth & Complex Tasks",
+    "text": "March 2024 — October 2024\n\nAt this stage, the tasks became significantly more complex. I continued working with WordPress, but with deeper customization: hooks, filters, REST API, working with WP_Query and metadata.\n\nI was involved in developing e-commerce solutions using WooCommerce, implementing custom business logic and non-standard user scenarios.\n\nI significantly improved my understanding of project architecture and started focusing more on scalability and reusable components. The team was strong, and I learned a lot from them — it gave me a serious boost in my development. 💪"
+  },
+  {
+    "id": "exp3",
+    "title": "808 GROUP — Advanced Level",
+    "text": "February 2025 — Present\n\nHere I work on more complex and high-load projects. My main focus is developing and maintaining corporate websites with integrations of external APIs and services.\n\nI work with AJAX, dynamic interfaces, data synchronization, and performance optimization (Core Web Vitals, caching, high-load preparation).\n\nI now pay much more attention to code quality, project structure, and user experience. The projects are larger, the challenges are more interesting, and the team is highly professional. At this point, I feel confident as a developer and continue to grow further. 🔥"
+  }
 ]
-  
