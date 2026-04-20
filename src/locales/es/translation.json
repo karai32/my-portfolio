@@ -1,0 +1,97 @@
+{
+  "about_me": "Sobre mi",
+  "greeting": "¡Hola! Me llamo Artem. Soy desarrollador web con experiencia en WordPress y React. ¡Me encanta crear sitios bonitos y simples de usar!😉",
+  "technologies_title": "Tecnologias con las que trabajo:",
+  "contacts_title": "Contacta conmigo",
+  "technologies": [
+    {
+      "name": "HTML5",
+      "score": 5
+    },
+    {
+      "name": "CSS",
+      "score": 5
+    },
+    {
+      "name": "PHP",
+      "score": 4
+    },
+    {
+      "name": "JavaScript",
+      "score": 4
+    },
+    {
+      "name": "WordPress + WooCommerce",
+      "score": 5
+    },
+    {
+      "name": "React",
+      "score": 2
+    }
+  ],
+  "portfolio": {
+    "title": "Ejemplos de proyectos",
+    "visit_site": "Visitar sitio",
+    "projects": [
+      {
+        "title": "Transporte de carga por el pais",
+        "link": "https://gruz38.ru"
+      },
+      {
+        "title": "Productos para personas con discapacidad",
+        "link": "https://incluzia.ru"
+      },
+      {
+        "title": "Inmobiliaria y construccion",
+        "link": "https://ensk.pro"
+      },
+      {
+        "title": "Muebles a medida",
+        "link": "https://arsstudio-mebel.ru"
+      },
+      {
+        "title": "Joyeria",
+        "link": "https://g-i-spb.ru/"
+      },
+      {
+        "title": "Agencia inmobiliaria",
+        "link": "https://metropolis54.ru"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Mis contactos",
+    "email": "Correo",
+    "phone": "Telefono",
+    "linkedin": "LinkedIn",
+    "telegram": "Telegram"
+  },
+  "contact_form": {
+    "title": "Mandame un mensaje",
+    "phone": "Telefono",
+    "message": "Mensaje",
+    "phone_placeholder": "Telefono",
+    "message_placeholder": "Mensaje",
+    "submit": "Enviar",
+    "success": "¡Tu mensaje ha sido enviado correctamente!",
+    "error": "Error al enviar el mensaje. Por favor, vuelve a intentar.",
+    "loading": "Enviando..."
+  },
+  "nav": {
+    "about": "Sobre mi",
+    "portfolio": "Portafolio",
+    "contact": "Contacto",
+    "experience": "Experiencia"
+  },
+  "logo": {
+    "name": "Tepliakov Artem",
+    "desc": "Portafolio"
+  },
+  "experience": {
+    "title": "Experiencia laboral",
+    "desc": "Aca esta mi experiencia en desarrollo web: proyectos, tareas y soluciones con las que he trabajado. Un resumen breve de lo que he hecho, lo que he aprendido y las herramientas que he utilizado.",
+    "showMore": "Ver todo",
+    "hide": "Ocultar"
+  },
+  "error": "Lo sentimos, esta pagina no existe todavia :("
+}
