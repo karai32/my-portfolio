@@ -1,0 +1,17 @@
+[
+  {
+    "id": "exp1",
+    "title": "SeoLead (ProNaiti) — Los comienzos",
+    "text": "Junio 2022 — Diciembre 2023\n\nEste fue mi primer trabajo en desarrollo web, donde forme una base solida y pude entender como funcionan los proyectos reales. Trabaje en el maquetado y el desarrollo de sitios en WordPress — desde landing pages sencillas hasta paginas mas complejas con logica personalizada.\n\nTrabaje con HTML, CSS y JavaScript, aprendi a escribir codigo limpio y legible, a navegar por proyectos existentes y a manejar tareas del mundo real. Asimismo cree temas personalizados y empece a entender la arquitectura de WordPress.\n\nEl equipo era reducido pero muy unido — siempre dispuestos a ayudar y explicar. Durante este tiempo construimos decenas de sitios web, y fue aca donde realmente me senti seguro entrando a la carrera. 🚀"
+  },
+  {
+    "id": "exp2",
+    "title": "Silver Duck — Crecimiento y tareas complejas",
+    "text": "Marzo 2024 — Octubre 2024\n\nEn esta etapa, las tareas se volvieron significativamente mas complejas. Segui trabajando con WordPress, pero con un ajuste mas avanzado: hooks, filtros, REST API, trabajo con WP_Query y metadatos.\n\nTome parte en el desarrollo de proyectos de e-commerce con WooCommerce, implementando logica de negocio personalizada y escenarios de usuario no convencional.\n\nMejore notablemente mi entendimiento de la arquitectura de proyectos y empece a enfocarme mas en la escalabilidad y el reuso de componentes. El equipo era fuerte y aprendi mucho de ellos — fue un gran impulso para mi desarrollo. 💪"
+  },
+  {
+    "id": "exp3",
+    "title": "808 GROUP — Nivel avanzado",
+    "text": "Febrero 2025 — actualidad\n\nAca trabajo en proyectos mas complejos y de alta carga. Mi foco principal es el desarrollo y mantenimiento de sitios corporativos con el uso de APIs y servicios externos.\n\nTrabajo con AJAX, interfaces interactivas, sincronizacion de datos y optimizacion del rendimiento (Core Web Vitals, cache, ajuste para alta carga).\n\nAhora presto mucho mas cuidado a la calidad del codigo, la estructura del proyecto y la experiencia de usuario. Los proyectos son mas grandes, los retos mas interesantes y el equipo altamente profesional. En este punto me siento un desarrollador seguro y sigo creciendo. 🔥"
+  }
+]
